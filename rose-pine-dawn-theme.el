@@ -25,12 +25,12 @@
   ;; Rose Pine Dawn
   (text       "#575279")  ;; foreground
   (base       "#faf4ed")  ;; background
-  (high       "#6e6a86")  ;; highlight
+  (high       "#797593")  ;; highlight
   (love       "#b4637a")  ;; critical
   (iris       "#907aa9")  ;; salient
   (foam       "#56949f")  ;; strong
   (rose       "#d7827e")  ;; popout
-  (subtle     "#6e6a86")  ;; subtle
+  (subtle     "#797593")  ;; subtle
   (faded      "#cecaed")  ;; faded
   (cursor     "#286983")) ;; cursor
 
@@ -96,7 +96,7 @@
   ;; Highlight line mode
   (with-eval-after-load "hl-line"
   (set-face-attribute 'hl-line nil
-                                          :background high))
+                                          :background "#797593"))
 
   ;; Buttons
   (with-eval-after-load "cus-edit"
